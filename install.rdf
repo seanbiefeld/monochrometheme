@@ -14,8 +14,8 @@
     <Description>
       <!-- Firefox's UUID -->
       <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-      <em:minVersion>3.0.0</em:minVersion>
-      <em:maxVersion>3.0.1</em:maxVersion>
+      <em:minVersion>3.0</em:minVersion>
+      <em:maxVersion>3.0.*</em:maxVersion>
     </Description>
   </em:targetApplication>
 
@@ -26,8 +26,6 @@
   <em:creator>Sean Biefeld</em:creator>
   <em:contributor></em:contributor>
   <em:homepageURL>http://code.google.com/p/monochrometheme</em:homepageURL>
-  <em:updateURL></em:updateURL>
-  <em:aboutURL></em:aboutURL>
 
   <!-- Front End Integration Hooks (used by Theme Manager)-->
     <em:internalName>MonoChrome</em:internalName>
