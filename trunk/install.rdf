@@ -25,9 +25,9 @@
   <em:description>Classic theme in monochrome</em:description>
   <em:creator>Sean Biefeld</em:creator>
   <em:contributor></em:contributor>
-  <em:homepageURL>Themes_HomePage</em:homepageURL>
-  <em:updateURL> Url_of_Update_Location </em:updateURL>
-  <em:aboutURL> Url_of_About_Page </em:aboutURL>
+  <em:homepageURL></em:homepageURL>
+  <em:updateURL></em:updateURL>
+  <em:aboutURL></em:aboutURL>
 
   <!-- Front End Integration Hooks (used by Theme Manager)-->
     <em:internalName>MonoChrome</em:internalName>
