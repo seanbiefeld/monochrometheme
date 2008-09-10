@@ -44,6 +44,8 @@
 
 @import url("chrome://global/skin/formatting.css");
 
+@import url("chrome://global/skin/add-ons/add-ons.css");
+
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 /* ::::: XBL bindings ::::: */
