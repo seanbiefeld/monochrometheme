@@ -1,7 +1,1 @@
-.portrait-page {
-  list-style-image: url("chrome://global/skin/icons/Portrait.png");
-}
-
-.landscape-page {
-  list-style-image: url("chrome://global/skin/icons/Landscape.png");
-}
+.portrait-page {  list-style-image: url("chrome://global/skin/icons/Portrait.png");}.landscape-page {  list-style-image: url("chrome://global/skin/icons/Landscape.png");}
