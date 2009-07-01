@@ -1,0 +1,5 @@
+skin	browser	MonoChrome	jar:chrome/mc.xpi!/browser/
+skin	communicator	MonoChrome	jar:chrome/mc.xpi!/communicator/
+skin	global	MonoChrome	jar:chrome/mc.xpi!/global/
+skin	mozapps	MonoChrome	jar:chrome/mc.xpi!/mozapps/
+skin	help	MonoChrome	jar:chrome/mc.xpi!/help/
