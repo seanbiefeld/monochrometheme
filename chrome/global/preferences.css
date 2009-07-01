@@ -96,13 +96,13 @@ radio[pane] {
 }
 
 radio[pane]:hover {
-  background-color: #E0E8F6;
+  background-color: #ebebeb;
   color: black;
   -moz-appearance: none;
 }
 
 radio[pane][selected="true"] {
-  background-color: #C1D2EE;
+  background-color: #d7d7d7;
   color: black; 
   -moz-appearance: none;
 }
