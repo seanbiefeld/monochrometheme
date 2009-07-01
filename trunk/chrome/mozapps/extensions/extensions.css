@@ -369,12 +369,12 @@ vbox[typeName="status"][type="header-recommended"] {
 }
 
 #viewGroup radio:hover {
-  background-color: #E0E8F6;
+  background-color: #ebebeb;
   color: black;
 }
 
 #viewGroup radio[selected="true"] {
-  background-color: #C1D2EE;
+  background-color: #d7d7d7;
   color: black;
 }
 
