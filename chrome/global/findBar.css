@@ -23,11 +23,9 @@
 }
 
 findbar {
-  -moz-appearance: none !important;
   border-top: 2px solid;
-  -moz-border-top-colors: ThreeDShadow ThreeDHighlight !important;
-  border-bottom: 1px solid;
-  -moz-border-bottom-colors: transparent;
+  -moz-border-top-colors: ThreeDShadow ThreeDHighlight;
+  padding-bottom: 1px;
   min-width: 1px;
 }
 
@@ -128,4 +126,12 @@ findbar[flash="true"] > .findbar-container > .find-field-container > .findbar-te
 
 .find-field-container {
   -moz-appearance: textfield;
+}
+
+/* XXX workaround bug 479957, disable bug 69710 in findbar */
+checkbox:-moz-system-metric(windows-classic) {
+  text-shadow: none;
+}
+checkbox:-moz-system-metric(windows-classic) > .checkbox-label-box > .checkbox-label {
+  margin-bottom: 0 !important;
 }
