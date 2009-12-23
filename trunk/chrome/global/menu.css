@@ -58,6 +58,19 @@ menuitem[default="true"] {
   font-weight: bold;
 }
 
+menu:not([disabled="true"]):hover,
+menuitem:not([disabled="true"]):hover,
+menu[_moz-menuactive="true"],
+menuitem[_moz-menuactive="true"] {
+	color: MenuText;
+}
+
+menuitem:active,
+menu[open="true"]{
+	background-color: -moz-menuhover !important;
+	color: -moz-menuhovertext !important;
+}
+
 menu[disabled="true"], menuitem[disabled="true"],
 menu[_moz-menuactive="true"][disabled="true"],
 menuitem[_moz-menuactive="true"][disabled="true"] {
